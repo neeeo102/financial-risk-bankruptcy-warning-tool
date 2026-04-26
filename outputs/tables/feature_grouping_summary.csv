@@ -1,0 +1,6 @@
+Category,Features,Count
+Profitability,"ROA_C, ROA_B, Operating_Gross_Margin, Realized_Sales_Gross_Margin, Operating_Profit_Rate, Pretax_Net_Interest_Rate, Aftertax_Net_Interest_Rate, Net_Income_to_Total_Assets, Gross_Profit_to_Sales, Net_Income_to_Equity",10
+Solvency,"Debt_to_NetWorth, Debt_Ratio, NetWorth_to_Assets, Current_Liability_to_Assets, Current_Liabilities_to_Equity, LT_Liability_to_Current_Assets, Current_Liability_to_Equity, Liability_to_Equity, Equity_to_Liability, Borrowing_Dependency, Contingent_Liabilities_to_NetWorth, DFL, Interest_Coverage_Ratio",13
+Liquidity,"Current_Ratio, Quick_Ratio, Quick_Assets_to_Current_Liability, Cash_to_Current_Liability, Cash_to_Total_Assets, Current_Assets_to_Total_Assets, Quick_Assets_to_Total_Assets, Working_Capital_to_Total_Assets, Current_Liability_to_Current_Assets",9
+Efficiency,"Total_Asset_Turnover, Accounts_Receivable_Turnover, Average_Collection_Days, Inventory_Turnover, Fixed_Assets_Turnover, NetWorth_Turnover, Current_Asset_Turnover_Rate, Quick_Asset_Turnover_Rate, Working_Capital_Turnover_Rate, Cash_Turnover_Rate",10
+Cash Flow,"Cash_Flow_Rate, Cash_Reinvestment, CashFlow_to_Sales, CashFlow_to_Total_Assets, CashFlow_to_Liability, CFO_to_Assets, CashFlow_to_Equity, Operating_Funds_to_Liability",8
