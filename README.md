@@ -195,13 +195,14 @@ Choose one of the following methods to obtain the project files.
 
 
    ####  Option B: Download the repository as a ZIP file
-    Go to the GitHub repository:
-    https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
-    Click Code → Download ZIP
-    Extract the ZIP file
-    Open Command Prompt or PowerShell
-    Navigate to the extracted project folder (usually named financial-risk-bankruptcy-warning-tool-main)
-    Run the following commands:
+    
+Go to the GitHub repository:  
+https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool  
+Click Code → Download ZIP  
+Extract the ZIP file  
+Open Command Prompt or PowerShell  
+Navigate to the extracted project folder (usually named financial-risk-bankruptcy-warning-tool-main)  
+Run the following commands:  
 
     ```bash
     pip install -r requirements.txt
