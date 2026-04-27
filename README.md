@@ -184,12 +184,18 @@ The analysis suggests that financial indicators contain meaningful differences b
 ## 5. How to Run
 
 ### Run the Streamlit app locally
+1. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
 
-1. Option A: Clone this repository:
+
+2. Option A: Clone this repository:
    ```bash
    git clone https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool.git
    cd financial-risk-bankruptcy-warning-tool
-   
+   streamlit run app.py
+
+
 2. Option B: Download ZIP from GitHub
 
 
@@ -198,18 +204,16 @@ The analysis suggests that financial indicators contain meaningful differences b
 
    press: code → download zip
    
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-
-4. Launch the program
+   Launch the program
 
    1. Open Command Prompt or PowerShell.  
-   2. Navigate to the project folder:
+   2. Navigate to the project folder
 
+
+   ```bash
    cd financial-risk-bankruptcy-warning-tool-main
-
    streamlit run app.py
+
 
 ## 6. Limitations
 
