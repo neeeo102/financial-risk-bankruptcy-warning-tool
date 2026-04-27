@@ -193,7 +193,7 @@ The analysis suggests that financial indicators contain meaningful differences b
    ```bash
    pip install -r requirements.txt
 
-3. Launch the app
+3. Launch the program
 
    1. Open Command Prompt or PowerShell.  
    2. Navigate to the project folder:
