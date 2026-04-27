@@ -229,7 +229,7 @@ Choose one of the following methods to obtain the project files.
     streamlit run app.py
 
 
-    Option B: Download the repository as a ZIP file
+   ####  Option B: Download the repository as a ZIP file
     Go to the GitHub repository:
     https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
     Click Code → Download ZIP
