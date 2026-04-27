@@ -1,4 +1,9 @@
 [README.md](https://github.com/user-attachments/files/27099297/README.md)
+## links
+github: https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
+
+video: https://video.xjtlu.edu.cn/Mediasite/MyMediasite/presentations/aa25494d947b46938622ff40972488bd1d
+
 ## 1.Project Title
 
 # Financial Risk Analysis and Bankruptcy Early Warning Tool
