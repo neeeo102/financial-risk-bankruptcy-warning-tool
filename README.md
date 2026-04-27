@@ -185,22 +185,24 @@ The analysis suggests that financial indicators contain meaningful differences b
 
 ### Run the Streamlit app locally
 
-1. Option A:Clone this repository:
+1. Option A: Clone this repository:
    ```bash
    git clone https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool.git
    cd financial-risk-bankruptcy-warning-tool
    
+2. Option B: Download ZIP from GitHub
 
 
-   Option B: Download ZIP from GitHub
    Go to the link: https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
+
+
    press: code → download zip
    
-2. Install the required packages:
+3. Install the required packages:
    ```bash
    pip install -r requirements.txt
 
-3. Launch the program
+4. Launch the program
 
    1. Open Command Prompt or PowerShell.  
    2. Navigate to the project folder:
