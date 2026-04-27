@@ -207,7 +207,7 @@ The analysis suggests that financial indicators contain meaningful differences b
    1. Open Command Prompt or PowerShell.  
    2. Navigate to the project folder:
 
-   cd "local file name"
+   cd financial-risk-bankruptcy-warning-tool-main
 
    streamlit run app.py
 
