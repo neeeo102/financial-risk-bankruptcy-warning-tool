@@ -56,7 +56,7 @@ If `data.csv` is not included in the repository due to file size or source restr
 1. Visit the Kaggle dataset page above
 2. Download the dataset manually
 3. Rename the file as `data.csv`
-4. Place it in the project root directory
+4. Place it in the project root directory（Don't put it in a subdirectory）
 
 ---
 
@@ -178,9 +178,57 @@ The analysis suggests that financial indicators contain meaningful differences b
 
 ## 5. How to Run
 
-### Option A: Run the Streamlit app locally
+### Run the Streamlit app locally
 
-1. Clone this repository:
+1. Option A:Clone this repository:
    ```bash
-   git clone [Insert your GitHub repository link here]
-   cd [Insert repository folder name here]
+   git clone https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool.git
+   cd financial-risk-bankruptcy-warning-tool
+   
+   Option B: Download ZIP from GitHub
+   Go to the link: https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
+   press: code → download zip
+   
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+3. Launch the app
+
+   1. Open Command Prompt or PowerShell.  
+   2. Navigate to the project folder:
+
+   ```bash
+   cd financial-risk-bankruptcy-warning-tool
+   streamlit run app.py
+
+## 6. Limitations
+
+This project has several limitations that should be acknowledged:
+
+1. **Dataset dependency**  
+   The analysis and warning results are highly dependent on the quality, completeness, and representativeness of the dataset used. If the input data contains noise, missing values, or sampling bias, the results may be affected.
+
+2. **Limited generalisability**  
+   The system is developed based on a specific bankruptcy dataset, so its findings may not fully generalise to companies from different industries, countries, or time periods.
+
+3. **Rule-based risk checker**  
+   The early warning tool currently uses a simplified rule-based scoring approach rather than a fully trained predictive model. Therefore, it should be viewed as a prototype for risk indication rather than a definitive bankruptcy prediction system.
+
+4. **Static analysis**  
+   The project mainly analyses historical financial indicators and does not incorporate real-time updates or dynamic market conditions. As a result, it cannot fully capture sudden changes in a company’s financial health.
+
+5. **Limited feature scope**  
+   Only the variables available in the dataset are included in the analysis. Other important factors, such as macroeconomic conditions, corporate governance, industry competition, or qualitative business information, are not considered.
+
+6. **Visualisation and interpretation constraints**  
+   While the dashboard helps users explore the data, the interpretation of results still requires financial knowledge. The visualisations provide descriptive insights, but they do not replace professional financial judgement.
+
+## 7. notes（one more reminder）
+   ### If the raw data file is missing
+   If `data.csv` is not included in the repository due to file size or source restrictions:
+
+   1. Visit the Kaggle dataset page above
+   2. Download the dataset manually
+   3. Rename the file as `data.csv`
+   4. Place it in the project root directory (Don't put it in a subdirectory)
