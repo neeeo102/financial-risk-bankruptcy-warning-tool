@@ -2,7 +2,6 @@
 ## links
 github: https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
 
-video:  https://video.xjtlu.edu.cn/Mediasite/MyMediasite/embedded/presentations/c657294ae08444e5a1350f59a17b605c1d
 
 ## 1.Project Title
 
