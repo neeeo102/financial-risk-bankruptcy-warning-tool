@@ -214,7 +214,33 @@ The analysis suggests that financial indicators contain meaningful differences b
    cd financial-risk-bankruptcy-warning-tool-main
    streamlit run app.py
 
+## 5. How to Run
 
+### Run the Streamlit app locally
+
+Choose one of the following methods to obtain the project files.
+
+#### Option A: Clone the repository
+
+    ```bash
+    git clone https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool.git
+    cd financial-risk-bankruptcy-warning-tool
+    pip install -r requirements.txt
+    streamlit run app.py
+
+
+    Option B: Download the repository as a ZIP file
+    Go to the GitHub repository:
+    https://github.com/neeeo102/financial-risk-bankruptcy-warning-tool
+    Click Code → Download ZIP
+    Extract the ZIP file
+    Open Command Prompt or PowerShell
+    Navigate to the extracted project folder (usually named financial-risk-bankruptcy-warning-tool-main)
+    Run the following commands:
+
+    ```bash
+    pip install -r requirements.txt
+    streamlit run app.py
 ## 6. Limitations
 
 This project has several limitations that should be acknowledged:
